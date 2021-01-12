@@ -4,8 +4,10 @@
   "description": "Dope Rocket",
   "main": "server.js",
   "type": "module",
-  "node": "15.01",
-  "npm": "7.0.3",
+  "engines": {
+    "node": "15.0.1",
+    "npm": "7.0.1"
+  },
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
