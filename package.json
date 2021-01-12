@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "module",
   "node": "15.01",
-  "npm": "7.0.3"
+  "npm": "7.0.3",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
