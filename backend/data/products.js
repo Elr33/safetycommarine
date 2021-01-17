@@ -25,7 +25,7 @@ const products = [
   },
   {
     name: 'Bubba Kush',
-    image: '/images/bud3.png',
+    image: '/images/budbag3.png',
     description:
       'Bubba Kush is an indica strain that has gained notoriety in the US and beyond for its heavy tranquilizing effects. Sweet hashish flavors with subtle notes of chocolate and coffee come through on the exhale, delighting the palate as powerful relaxation takes over. From head to toe, muscles ease with heaviness as dreamy euphoria blankets the mind, crushing stress while bringing happy moods. Bubba Kush exhibits a distinctive, bulky bud structure with hues that range from forest green to pale purple.',
     brand: 'Indica',
@@ -36,30 +36,20 @@ const products = [
     numReviews: 0,
   },
   {
-    name: 'Haze',
-    image: '/images/budbag3.png',
+    name: 'Bubba Kush',
+    image: '/images/budbag2.png',
     description:
-      'Get more for less with som crazy specials that blow your hair backwards.',
-    brand: 'Various',
-    category: 'All Strains',
-    price: 80,
-    countInStock: 1000,
+      'Bubba Kush is an indica strain that has gained notoriety in the US and beyond for its heavy tranquilizing effects. Sweet hashish flavors with subtle notes of chocolate and coffee come through on the exhale, delighting the palate as powerful relaxation takes over. From head to toe, muscles ease with heaviness as dreamy euphoria blankets the mind, crushing stress while bringing happy moods. Bubba Kush exhibits a distinctive, bulky bud structure with hues that range from forest green to pale purple.',
+    brand: 'Indica',
+    category: 'Relaxing',
+    price: 115,
+    countInStock: 150,
     rating: 0,
     numReviews: 0,
   },
 
-  {
-    name: 'Haze2',
-    image: '/images/budbag.png',
-    description:
-      'Get more for less with som crazy specials that blow your hair backwards.',
-    brand: 'Various',
-    category: 'All Strains',
-    price: 80,
-    countInStock: 1000,
-    rating: 0,
-    numReviews: 0,
-  },
+
+ 
 ]
 
 export default products
