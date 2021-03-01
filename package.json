@@ -1,7 +1,7 @@
 {
-  "name": "Dope Rocket",
+  "name": "Nadias's Emporium",
   "version": "1.0.0",
-  "description": "Dope Rocket",
+  "description": "Nadia's Emporium",
   "main": "server.js",
   "type": "module",
   "engines": {
