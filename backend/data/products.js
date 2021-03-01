@@ -1,7 +1,7 @@
 const products = [
   {
-    name: 'Beautiful Avon handbag R499',
-    image: '/images/Avon handbag R499.jpg',
+    name: 'Beautiful Avon handbag',
+    image: '/images/a1.jpg',
     description:
       'Fashionable and Trendy, Avon range of top notch handbags will be the next nest accessory that you can acquire for a fraction of the price of buying it in Store',
     brand: 'Avon',
@@ -13,7 +13,7 @@ const products = [
   },
   {
     name: 'Avon Necklace Giftset',
-    image: '/images/Avon Necklace giftset R169.jpg',
+    image: '/images/a2.jpg',
     description:
       'This gift set is a perfect gift',
     brand: 'Avon',
@@ -25,11 +25,11 @@ const products = [
   },
   {
     name: 'Black Suede',
-    image: '/images/Black Suede R299.png',
+    image: '/images/a3.jpg',
     description:
-      '',
+    'test',
     brand: 'Avon',
-    category: '',
+    category: 'Fragrance',
     price: 299,
     countInStock: 15,
     rating: 0,
@@ -37,11 +37,11 @@ const products = [
   },
   {
     name: 'His and Hers Doufel Bag',
-    image: '/images/His and hers doufel bag.png',
+    image: '/images/a4.jpg',
     description:
       'Best Couple accessory',
     brand: 'Avon',
-    category: '',
+    category: 'Bag',
     price: 199,
     countInStock: 15,
     rating: 0,
