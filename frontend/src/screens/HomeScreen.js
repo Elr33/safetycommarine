@@ -28,7 +28,9 @@ const HomeScreen = ({ match }) => {
     <>
       <Image className="center" src='/images/fpic.png'/>
       <br></br>
-
+      <Row>
+      <h1 className="center">OUR TOP PRODUCTS</h1>     
+      </Row>
       <Meta />
       {!keyword ? (
         <ProductCarousel />
@@ -37,7 +39,7 @@ const HomeScreen = ({ match }) => {
           Go Back
         </Link>
       )}
-      <h1>Latest Products</h1>
+      <h1 className="center">LATEST PRODUCTS</h1>
       {loading ? (
         <Loader />
       ) : error ? (
