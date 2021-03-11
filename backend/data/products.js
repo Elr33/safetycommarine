@@ -25,7 +25,7 @@ const products = [
   },
   {
     name: 'Avon Exotic for him',
-    image: '/images/exoticm.jpg',
+    image: '/images/exoticm.png',
     description:
     'test',
     brand: 'Avon',
@@ -37,7 +37,7 @@ const products = [
   },
   {
     name: 'Avon Far Away Royal',
-    image: '/images/farawayroyal.png',
+    image: '/images/fawayroyal.png',
     description:
       'Best Couple accessory',
     brand: 'Avon',
