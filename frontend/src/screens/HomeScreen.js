@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Image } from 'react-bootstrap'
 import Product from '../components/Product'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
@@ -26,49 +26,8 @@ const HomeScreen = ({ match }) => {
 
   return (
     <>
-      {/* <Image style={{width:'80px'}} src='/images/logothumb.png'/> */}
-
-        {/* <CardDeck>
-            <Card style={{ backgroundColor: 'transparent' }}>
-                <Card.Img style={{ padding: '20px'}} variant="top" src="/images/logothumb.png" />
-                <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
-            </Card>
-            <Card style={{ backgroundColor: 'transparent' }}>
-                <Card.Img style={{ padding: '20px'}} variant="top" src="/images/Ruko.png" />
-                <Card.Body>
-                    <Card.Title>Roku F11</Card.Title>
-                        <Card.Text>
-                            The Ruko F11 is a Drone that is a most definite best buy.{' '}
-                        </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
-            </Card>
-            <Card style={{ backgroundColor: 'transparent' }}>
-                <Card.Img variant="top" src="" />
-                <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This card has even longer content than the first to
-                    show that equal height action.
-                </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                <small className="text-muted">2021</small>
-                </Card.Footer>
-            </Card>
-        </CardDeck> */}
+      <Image className="center" src='/images/fpic.png'/>
+      <br></br>
 
       <Meta />
       {!keyword ? (
