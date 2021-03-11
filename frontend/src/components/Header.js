@@ -5,6 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Nav, Container, NavDropdown, Image } from 'react-bootstrap'
 import SearchBox from './SearchBox'
 import { logout } from '../actions/userActions'
+import { SocialIcon } from 'react-social-icons';
 
 const Header = () => {
   const dispatch = useDispatch()
@@ -63,6 +64,10 @@ const Header = () => {
               )}
             </Nav>
           </Navbar.Collapse>
+          <div className="inline-flex py-3 px-3 my-6">
+        
+                    <SocialIcon url="https://api.whatsapp.com/send?phone=+270723341992" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
+          </div>
         </Container>
       </Navbar>
     </header>
