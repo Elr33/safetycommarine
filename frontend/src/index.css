@@ -16,14 +16,19 @@ h2 {
   padding: 0.5rem 0;
 }
 
+h3 {
+  font-size: 0.9rem;
+}
+
 .center {
   text-align: center;
   display: block;
   justify-content: center;
   align-items: center;
   margin: auto;
-  width: 50%;
+  width: 35%;
 }
+
 
 .rating span {
   margin: 0.1rem;

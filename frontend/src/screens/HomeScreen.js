@@ -26,10 +26,12 @@ const HomeScreen = ({ match }) => {
 
   return (
     <>
+      <br></br>
       <Image className="center" src='/images/fpic.png'/>
       <br></br>
+      
       <Row>
-      <h1 className="center">OUR TOP PRODUCTS</h1>     
+      <h3 className="center">OUR TOP PRODUCTS</h3>     
       </Row>
       <Meta />
       {!keyword ? (
@@ -39,7 +41,7 @@ const HomeScreen = ({ match }) => {
           Go Back
         </Link>
       )}
-      <h1 className="center">LATEST PRODUCTS</h1>
+      <h3 className="center">LATEST PRODUCTS</h3>
       {loading ? (
         <Loader />
       ) : error ? (
