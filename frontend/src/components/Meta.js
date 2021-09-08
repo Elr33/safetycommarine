@@ -12,9 +12,9 @@ const Meta = ({ title, description, keywords }) => {
 }
 
 Meta.defaultProps = {
-  title: 'Welcome Nadia\'s Emporium',
-  description: 'We sell only the best female products on the market',
-  keywords: 'AVON',
+  title: 'Safet-E-Store',
+  description: 'SAfety equipment and more',
+  keywords: 'Safety',
 }
 
 export default Meta

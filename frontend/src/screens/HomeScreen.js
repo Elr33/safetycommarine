@@ -27,7 +27,7 @@ const HomeScreen = ({ match }) => {
   return (
     <>
       <br></br>
-      <Image className="center" src='/images/fpic.png'/>
+      {/* <Image className="center" src='/images/fpic.png'/> */}
       <br></br>
       
       <Row>
