@@ -66,7 +66,7 @@ const Header = () => {
           </Navbar.Collapse>
           <div className="inline-flex py-3 px-3 my-6">
 
-                    <SocialIcon url="https://api.whatsapp.com/send?phone=+270723341992" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
+                    <SocialIcon url="https://api.whatsapp.com/send?phone=+270648025487" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
           </div>
         </Container>
       </Navbar>
