@@ -10,6 +10,7 @@ import ProductCarousel from '../components/ProductCarousel'
 import Meta from '../components/Meta'
 import { listProducts } from '../actions/productActions'
 
+
 const HomeScreen = ({ match }) => {
   const keyword = match.params.keyword
 
