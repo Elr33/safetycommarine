@@ -1,6 +1,17 @@
 const products = [
   
-
+  {
+    name: 'ICOM M37 Waterproof VHF Radio',
+    image: '/images/icom-m37-hand-held-waterproof-vhf-radio-removebg-preview.png',
+    description:
+      '.',
+    brand: 'SS',
+    category: 'Stainless Steel Hardware',
+    price: 1,
+    countInStock: 20,
+    rating: 0,
+    numReviews: 0,
+  },
   {
     name: 'Swage Dome',
     image: '/images/316s-stainless-steel-swage-dome-terminal-end-wire-rope-balustrade-fittings-marine-hardware-removebg-preview.png',
@@ -49,18 +60,7 @@ const products = [
     rating: 0,
     numReviews: 0,
   },
-  {
-    name: 'Ballustrade Cable Wire',
-    image: '/images/316-stainless-steel-cable-wire-rope-architectural-balustrade-fittings-marine-hardware-removebg-preview.png',
-    description:
-      '.',
-    brand: 'SS',
-    category: 'Stainless Steel Hardware',
-    price: 1,
-    countInStock: 20,
-    rating: 0,
-    numReviews: 0,
-  },
+
   {
     name: 'Cam Buckle 25mm',
     image: '/images/316-stainless-steel-cam-buckle-25mm-webbing-strap-buckle-removebg-preview.png',
@@ -73,18 +73,7 @@ const products = [
     rating: 0,
     numReviews: 0,
   },
-  {
-    name: 'Shackle Anchor',
-    image: '/images/316-stainless-steel-d-shackle-anchor-shackle-marine-hardware__1_-removebg-preview.png',
-    description:
-      '.',
-    brand: 'SS',
-    category: 'Stainless Steel Hardware',
-    price: 1,
-    countInStock: 20,
-    rating: 0,
-    numReviews: 0,
-  },
+ 
   {
     name: 'Shackle Anchor',
     image: '/images/316-stainless-steel-d-shackle-anchor-shackle-marine-hardware__1_-removebg-preview.png',
@@ -144,7 +133,80 @@ const products = [
     countInStock: 20,
     rating: 0,
     numReviews: 0,
-  }
+  },
+  {
+    name: 'Rod Holder Flush Mount',
+    image: '/images/316ss-fishing-rod-holder-flush-mount-stainless-steel-30-degreee-removebg-preview.png',
+    description:
+      '.',
+    brand: 'SS',
+    category: 'Stainless Steel Hardware',
+    price: 1,
+    countInStock: 20,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Rigging Screw Fork',
+    image: '/images/316SS-rigging-screw-fork-and-swage-stainless-steel-architectural-wire-rope-fittings-removebg-preview.png',
+    description:
+      '.',
+    brand: 'SS',
+    category: 'Stainless Steel Hardware',
+    price: 1,
+    countInStock: 20,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Rigging Screw Fork',
+    image: '/images/316ss-stainless-steel-anchor-chain-short-link-marine-hardware-removebg-preview.png',
+    description:
+      '.',
+    brand: 'SS',
+    category: 'Stainless Steel Hardware',
+    price: 1,
+    countInStock: 20,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Steel Anchor Chain',
+    image: '/images/316ss-stainless-steel-anchor-chain-short-link-marine-hardware-removebg-preview.png',
+    description:
+      '.',
+    brand: 'SS',
+    category: 'Stainless Steel Hardware',
+    price: 1,
+    countInStock: 20,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Steel Anchor Chain',
+    image: '/images/316ss-stainless-steel-flagpole-cleat-marine-hardware-rope-cleat-removebg-preview.png',
+    description:
+      '.',
+    brand: 'SS',
+    category: 'Stainless Steel Hardware',
+    price: 1,
+    countInStock: 20,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Low Profile Mooring Rope Cleat',
+    image: '/images/316ss-stainless-steel-low-profile-mooring-rope-cleat-boat-mooring-chock-removebg-preview.png',
+    description:
+      '.',
+    brand: 'SS',
+    category: 'Stainless Steel Hardware',
+    price: 1,
+    countInStock: 20,
+    rating: 0,
+    numReviews: 0,
+  },
+  
  
  
 ]
