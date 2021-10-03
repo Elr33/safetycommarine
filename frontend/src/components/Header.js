@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar bg='white' variant='white' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>SafetyComMarine</Navbar.Brand>
@@ -41,9 +41,7 @@ const Header = () => {
                   <NavDropdown.Item onClick={logoutHandler}>
                     Logout
                   </NavDropdown.Item>
-                  <div className="inline-flex py-3 px-3 my-6">
-                <SocialIcon url="https://api.whatsapp.com/send?phone=+270648025487" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35 }} />
-                </div>
+                
                 </NavDropdown>
               ) : (
                 <LinkContainer to='/login'>
@@ -67,6 +65,7 @@ const Header = () => {
               )}
             </Nav>
           </Navbar.Collapse>
+          <SocialIcon url="https://api.whatsapp.com/send?phone=+270648025487" className="mr-4" target="_blank" fgColor="#fff" style={{ padding: 10, height: 35, width: 35 }} />
         </Container>
       </Navbar>
     </header>
